@@ -86,7 +86,7 @@ input {
 
 @media (min-width: 768px) {
     .content {
-        grid-template-columns: 1fr 1fr;
+        /*grid-template-columns: 1fr 1fr;*/
     }
 }
 
