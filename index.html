@@ -1,155 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/2a67444176.js" crossorigin="anonymous"></script>
-    <title>foodgpt</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/2a67444176.js"
+            crossorigin="anonymous"></script>
+        <title>foodgpt</title>
+    </head>
 
-<body>
-    <div class="web">
-        <section class="menu">
+    <body>
+        <div class="web">
+            <section class="menu">
+                <div class="nav">
+                    <div class="logo">
+                        <h1>Food<b>GPT</b></h1>
+                    </div>
+                    <ul>
+                        <li><a class="active" href="#">Home</a> </li>
+                        <li><a href="#">Menu</a> </li>
+                        <li><a href="#">Service</a> </li>
+                        <li><a href="#">About</a> </li>
+                        <li><a href="#">Gallary</a> </li>
+                    </ul>
+                    <div>
+                        <input class="signin" type="submit" value="Sign In"
+                            name="signin">
+                        <input class="signup" type="submit" value="Sign Up"
+                            name="signup">
+                    </div>
+                </div>
+            </section>
+            <section class="grid">
+                <div class="content">
+                    <div class="content-left">
+                        <div class="info ">
+                            <h2 >Food<b>GPT</b></h2>
+                            <label><b>G</b>ET <b>P</b>URE <b>T</b>ASTE</label>
+                            <p>Hey, Our delicious food is waiting for you,<br>
+                                We are always near to you with fresh item of
+                                food </p>
+                        </div>
+                        <button class="btn">Explore Food</button>
+                    </div>
+                    <div class="content-right">
+                        <img src="./img/food.png" alt>
+                    </div>
+                </div>
+                <div class="location">
+                    <label>Check delivery availablity</label><br>
+                    <input type="text"
+                        placeholder="Enter your street, Area, City or Pincode">
+                    <button class="btn">Search</button>
+                </div>
+            </section>
+            <section class="category">
+                <div class="list-items">
+                    <h3>POPULAR DISHES</h3>
+                    <div class="card-list">
+                        <div class="card">
+                            <img src="img/biryani.png" alt>
+                            <div class="food-title">
+                                <h1>Veg Biryani</h1>
+                            </div>
+                            <div class="desc-food">
+                                <p>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Eligendi necessitatibus
+                                    quaerat
+                                </p>
+                            </div>
+                            <div class="price">
+                                <span><i
+                                        class="fa-solid fa-indian-rupee-sign fa-fade"></i>150</span><span><i
+                                        class="fa-solid fa-circle-plus plus-icon"></i></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/burger.png" alt>
+                            <div class="food-title">
+                                <h1>Burger</h1>
+                            </div>
+                            <div class="desc-food">
+                                <p>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Eligendi necessitatibus
+                                    quaerat
+                                </p>
+                            </div>
+                            <div class="price">
+                                <span><i
+                                        class="fa-solid fa-indian-rupee-sign fa-fade"></i>119</span><span><i
+                                        class="fa-solid fa-circle-plus plus-icon"></i></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/momos.png" alt>
+                            <div class="food-title">
+                                <h1>Veg Momos</h1>
+                            </div>
+                            <div class="desc-food">
+                                <p>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Eligendi necessitatibus
+                                    quaerat
+                                </p>
+                            </div>
+                            <div class="price">
+                                <span><i
+                                        class="fa-solid fa-indian-rupee-sign fa-fade"></i>99</span><span><i
+                                        class="fa-solid fa-circle-plus plus-icon"></i></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/masala dosa.png" alt>
+                            <div class="food-title">
+                                <h1>Masala Dosa</h1>
+                            </div>
+                            <div class="desc-food">
+                                <p>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Eligendi necessitatibus
+                                    quaerat
+                                </p>
+                            </div>
+                            <div class="price">
+                                <span><i
+                                        class="fa-solid fa-indian-rupee-sign fa-fade"></i>110</span><span><i
+                                        class="fa-solid fa-circle-plus plus-icon"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="delivery">
+            <div>
+                <h1>Our delivery Partner</h1>
+            </div>
+            <div class="partner-list">
+                <div class="partner">
+                    <div>
+                        <h1>Little Fast</h1>
+                        <p>NO Excuses, On time delivery</p>
+                    </div>
+                    <img src="./img/delivery1.png" alt>
+                </div>
+                <div class="partner">
+                    <div>
+                        <h1>Fast and Yummy</h1>
+                        <p>Directly to your doorstep.</p>
+                    </div>
+                    <img src="./img/delivery2.png" alt>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
             <div class="nav">
                 <div class="logo">
                     <h1>Food<b>GPT</b></h1>
                 </div>
-                <ul>
-                    <li><a class="active" href="#">Home</a> </li>
-                    <li><a href="#">Menu</a> </li>
-                    <li><a href="#">Service</a> </li>
-                    <li><a href="#">About Us</a> </li>
-                    <li><a href="#">Gallary</a> </li>
-                </ul>
-                <div>
-                    <input class="signin" type="submit" value="Sign In" name="signin">
-                    <input class="signup" type="submit" value="Sign Up" name="signup">
+                <p><i class="fa-regular fa-copyright"></i>copyright 2023-24.All
+                    right reserved</p>
+                <div class="social-btn">
+                    <a href="#"> <i class="fa-brands fa-facebook "></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram "></i></a>
+                    <a href="#"> <i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter "></i></a>
                 </div>
             </div>
         </section>
-        <section class="grid">
-            <div class="content">
-                <div class="content-left">
-                    <div class="info ">
-                        <h2>Food<b>GPT</b></h2>
-                        <label><b>G</b>ET <b>P</b>URE <b>T</b>ASTE</label>
-                        <p>Hey, Our delicious food is waiting for you,<br>
-                            We are always near to you with fresh item of food </p>
-                    </div>
-                    <button class="btn">Explore Food</button>
-                </div>
-                <div class="content-right"><img src="./img/food.png" alt=""></div>
-            </div>
-            <div class="location">
-                <label>Check delivery availablity</label><br>
-                <input type="text" placeholder="Enter your street, Area, City or Pincode">
-                <button class="btn">Search</button>
-            </div>
-        </section>
-        <section class="category">
-            <div class="list-items">
-                <h3>POPULAR DISHES</h3>
-                <div class="card-list">
-                    <div class="card">
-                        <img src="img/biryani.png" alt="">
-                        <div class="food-title">
-                            <h1>Veg Biryani</h1>
-                        </div>
-                        <div class="desc-food">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi necessitatibus quaerat
-                            </p>
-                        </div>
-                        <div class="price">
-                            <span><i class="fa-solid fa-indian-rupee-sign fa-fade"></i>150</span><span><i
-                                    class="fa-solid fa-circle-plus plus-icon"></i></span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/burger.png" alt="">
-                        <div class="food-title">
-                            <h1>Burger</h1>
-                        </div>
-                        <div class="desc-food">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi necessitatibus quaerat
-                            </p>
-                        </div>
-                        <div class="price">
-                            <span><i class="fa-solid fa-indian-rupee-sign fa-fade"></i>119</span><span><i
-                                    class="fa-solid fa-circle-plus plus-icon"></i></span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/momos.png" alt="">
-                        <div class="food-title">
-                            <h1>Veg Momos</h1>
-                        </div>
-                        <div class="desc-food">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi necessitatibus quaerat
-                            </p>
-                        </div>
-                        <div class="price">
-                            <span><i class="fa-solid fa-indian-rupee-sign fa-fade"></i>99</span><span><i
-                                    class="fa-solid fa-circle-plus plus-icon"></i></span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/masala dosa.png" alt="">
-                        <div class="food-title">
-                            <h1>Masala Dosa</h1>
-                        </div>
-                        <div class="desc-food">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi necessitatibus quaerat
-                            </p>
-                        </div>
-                        <div class="price">
-                            <span><i class="fa-solid fa-indian-rupee-sign fa-fade"></i>110</span><span><i
-                                    class="fa-solid fa-circle-plus plus-icon"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <section class="delivery">
-        <div>
-            <h1>Our delivery Partner</h1>
-        </div>
-        <div class="partner-list">
-            <div class="partner">
-                <div>
-                    <h1>Little Fast</h1>
-                    <p>NO Excuses, On time delivery</p>
-                </div>
-                <img src="./img/delivery1.png" alt="">
-            </div>
-            <div class="partner">
-                <div>
-                    <h1>Fast and Yummy</h1>
-                    <p>Directly to your doorstep.</p>
-                </div>
-                <img src="./img/delivery2.png" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="footer">
-        <div class="nav">
-            <div class="logo">
-                <h1>Food<b>GPT</b></h1>
-            </div>
-            <p><i class="fa-regular fa-copyright"></i>copyright 2023-24.All right reserved</p>
-            <div class="social-btn">
-                <a href="#"> <i class="fa-brands fa-facebook "></i></a>
-                <a href="#"> <i class="fa-brands fa-instagram "></i></a>
-                <a href="#"> <i class="fa-brands fa-pinterest"></i></a>
-                <a href="#"> <i class="fa-brands fa-twitter "></i></a>
-            </div>
-        </div>
-    </section>
-</body>
-<script>
-        alert("Switch to desktop site for proper view!!!");
-    </script>
+    </body>
 </html>
